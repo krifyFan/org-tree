@@ -28,3 +28,5 @@ export default {
     name: 'orgTreeNode' //这个name一定要有
 }
 ```
+3、css
+节点与节点之间的连线，充分利用了伪类::before ::after
