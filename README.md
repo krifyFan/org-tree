@@ -4,7 +4,7 @@
 ![Image text](https://raw.githubusercontent.com/krifyFan/image-folder/master/2019-04-22_165646.png)
 
 使用方法<br>
-1、在parent.vue中引入组加架构组件org-tree.vue，org-tree.vue接收父组件的传值data<br>
+1、在parent.vue中引入组织架构组件org-tree.vue，org-tree.vue接收父组件的传值data<br>
 
 设计原理<br>
 1、用到了vue的递归组件，因为每个节点都应该是相同的组件<br>
