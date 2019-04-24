@@ -7,8 +7,7 @@
 1、用到了vue的递归组件，因为每个节点都应该是相同的组件
 2、 在官网这句话就是关键定义组件是一定要有name属性。
     组件在它的模板内可以递归地调用自己，只有当它有 name 选项时才可以。
-    ```
-    javascript
+    ``` javascript
     <template>
     <div class="org-tree-container">
         <div class="org-tree-node" v-for="item in data" :key="item.id">
@@ -28,4 +27,4 @@
 export default {
     name: 'orgTreeNode' //这个name一定要有
 }
-    ```
+```
